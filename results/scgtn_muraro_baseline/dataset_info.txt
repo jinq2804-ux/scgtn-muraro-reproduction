@@ -1,0 +1,28 @@
+Source: W-RMSL/scGTN datasets
+File: Muraro_human_Pancreas_cell.h5
+Bytes: 22378708
+SHA-256: 05ee216b9f842d0c5bdcb28293eeefe75cff7509f15445cf52f5410a37002ece
+{'dataset_name': 'Muraro_human_Pancreas_cell', 'n_cells': 2122, 'n_genes': 19046, 'n_clusters': 9}
+NaN/Inf/negative entries: 0
+Zero fraction: 0.730166
+Count range: [0.0, 1597.0111083984375]
+Fractional values: 10905490
+Per-cell totals min/median/p95/p99/max: [  6036.79882812  18076.53417969  46512.78945312  71959.74640625
+ 260573.234375  ]
+Zero-total cells: 0
+0 acinar 219
+1 alpha 812
+2 beta 448
+3 delta 193
+4 ductal 245
+5 endothelial 21
+6 epsilon 3
+7 gamma 101
+8 mesenchymal 80
+
+H5 expression: /exprs (CSR)
+H5 stored dtype: float64; official loader converts to float32
+H5 labels: /obs/cell_type1, aligned with /obs_names
+Cell IDs: 2122 unique of 2122
+Gene IDs: 19046 unique of 19046
+CSR offsets, data length and index bounds: validated

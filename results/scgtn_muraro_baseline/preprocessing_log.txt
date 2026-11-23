@@ -1,0 +1,37 @@
+/opt/miniconda3/envs/ai4sci/lib/python3.11/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+H5 keys ['exprs', 'obs', 'obs_names', 'uns', 'var', 'var_names']
+Verified H5, raw shape and label frequencies: (2122, 19046) {0: 219, 1: 812, 2: 448, 3: 193, 4: 245, 5: 21, 6: 3, 7: 101, 8: 80}
+Loading data...
+Preprocessing with Scanpy...
+filter_genes (2122, 17500)
+filter_cells (2122, 17500)
+HVG subset (2122, 2000)
+Building dual-view graphs...
+Computing graph embeddings...
+  - Processing view 1...
+Computing hop distances:   0%|          | 0/2122 [00:00<?, ?it/s]Computing hop distances:  36%|███▌      | 763/2122 [00:00<00:00, 7530.36it/s]Computing hop distances:  87%|████████▋ | 1840/2122 [00:00<00:00, 9296.15it/s]                                                                                - Processing view 2...
+Computing hop distances:   0%|          | 0/2122 [00:00<?, ?it/s]                                                                 Retained raw counts and labels exactly match H5 row/gene slices.
+X (2122, 2000) torch.float32
+X2 (2122, 2000) torch.float32
+X_features (2122, 2000) torch.float32
+X_aug (2122, 2000) torch.float32
+y (2122,) torch.int64
+A (2122, 2122) torch.float32
+A1 (2122, 2122) torch.float32
+A2 (2122, 2122) torch.float32
+raw_embeddings (2122, 16, 2000) torch.float32
+raw_embeddings2 (2122, 16, 2000) torch.float32
+neighbor_indices (2122, 15) torch.int64
+neighbor_indices2 (2122, 15) torch.int64
+int_embeddings (2122, 16) torch.int64
+hop_embeddings (2122, 16) torch.int64
+int_embeddings2 (2122, 16) torch.int64
+hop_embeddings2 (2122, 16) torch.int64
+A1 nnz 52406 off-diagonal nnz 50284 zero-weight Top-K slots 2613 centers repeated in Top-K 1796
+A2 nnz 107300 off-diagonal nnz 105178 zero-weight Top-K slots 0 centers repeated in Top-K 2122
+View 1 Transformer input (2122, 16, 256)
+View 2 Transformer input (2122, 16, 256)
+Pooled embeddings (2122, 256)
+Pooled embeddings (2122, 256)
+Preprocessing and inference checks passed.

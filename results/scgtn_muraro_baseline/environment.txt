@@ -1,0 +1,21 @@
+3.11.18 (main, Oct 26 2026, 18:15:19) [Clang 20.1.8 ]
+/opt/miniconda3/envs/ai4sci/bin/python
+macOS-15.6-arm64-arm-64bit
+torch 2.15.0 OK
+scanpy 1.11.5 OK
+anndata 0.12.19 OK
+numpy 2.4.6 OK
+scipy 1.17.1 OK
+scikit-learn 1.9.1 OK
+networkx 3.6.1 OK
+/opt/miniconda3/envs/ai4sci/lib/python3.11/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+torch-geometric 2.8.1 OK
+transformers 4.40.2 OK
+pandas 2.3.3 OK
+h5py 3.16.0 OK
+tqdm 4.70.1 OK
+matplotlib 3.11.2 OK
+CUDA: False MPS: False
+Torch CPU threads: 4
+No broken requirements found.
